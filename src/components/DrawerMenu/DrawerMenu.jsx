@@ -24,11 +24,12 @@ export const DrawerMenu = ({ onClickChange }) => {
         className="absolute right-4 top-4 cursor-pointer"
         onClick={onClickChange}
       />
-      <h2 className="text-2xl p-4 ">
-        All <span className="font-bold"> Categories</span>
-      </h2>
+
       <nav>
         <ul className="flex flex-col p-4 text-gray-800">
+          <h2 className="text-2xl p-4 font-bold">
+            All <span className="font-bold text-orange-600"> Categories</span>
+          </h2>
           <li className="text-xl py-4 flex">
             <AiOutlineHome size={25} className="mr-4" />
             <Link to="/">Home</Link>
