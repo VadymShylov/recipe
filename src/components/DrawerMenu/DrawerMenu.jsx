@@ -25,7 +25,7 @@ export const DrawerMenu = ({ onClickChange }) => {
         onClick={onClickChange}
       />
 
-      <nav>
+      <nav className="h-full overflow-auto">
         <ul className="flex flex-col p-4 text-gray-800">
           <h2 className="text-2xl p-4 font-bold">
             All <span className="font-bold text-orange-600"> Categories</span>

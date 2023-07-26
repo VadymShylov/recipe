@@ -11,6 +11,11 @@ const Navigation = () => {
 
   const toggle = e => {
     setNav(!nav);
+    if (!nav) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'scroll';
+    }
   };
 
   return (
